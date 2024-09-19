@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    background-color: #143C87;
+    color: white;
+    font-size:smaller;
+    padding:10px;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#titleteam{
+    text-align: center ;
+    font-size:small;
+    color: #143C87 ;
+    padding: 10px;
+}
+#carddiv{
+    display: flex;
+    justify-content: center;
+    justify-content:space-between;
+}
+.span{
+   color: #457CB3; 
+   font-size: x-small;
+   
+}
+.card{
+    background-color:#F0F0F0 ;
+    text-align: center;
+    width: 140px;
+    height: 160px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+#inputrange{
+    margin-top: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F0F0F0;
+    padding: 10px;
+    border-radius: 5px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+   
+}
+
+#tablediv {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    max-width: 90%;
+    width: 100%; 
+  }
+  
+#table {
+    width: 100%; 
+    table-layout: fixed; 
+    border-collapse: collapse; 
+  }
+  
+.field {
+    background-color:#C80528;
+    color:white;
+    font-size: small;
+    padding: 10px;
+    border: rgb(207, 202, 202) solid;
+    text-align: center;
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+
+.td{
+    padding: 10px;
+    border: rgb(208, 202, 202) solid;;
+    text-align: center;
+
+}
+.card{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    align-content: center;
+}
