@@ -137,12 +137,7 @@ function addPlayerToDiv(player:PlayerResponse ){
     <p>${"Two Percent:" + " " + player.twoPercent }</p>
     <p>${"Points:" + " " + player.points}</p>
     `;
-    // `
-    // <p>${player.playerName}</p>
-    // <p>${player.threePercent}</p>
-    // <p>${player.twoPercent }</p>
-    // <p>${player.points}</p>
-    // `;
+    
     currentDiv?.innerText = '';
     currentDiv.appendChild(para);
   
